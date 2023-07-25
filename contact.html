@@ -1,0 +1,102 @@
+<!-- Sanders Chacon -->
+<!-- schaconromero4720@conestogac.on.ca -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>ViralSan</title>
+</head>
+
+<body>
+
+   <div class="tagline">
+            <h2>Don't be upset, let's watch movies<h2>
+        </div>
+
+    <div class="container">
+        <header> 
+            <div class="logo-and-text">
+                <img src="C:\Users\sande\Documents\2. CONESTOGA SPRING\3. IT Support Web Foundations\2. WEB ASSIGNMENT\Assigment HTMLCSS\img\logoviralsan.PNG" alt="" class="logoviralsan">
+            
+            </div>
+
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+                <aside>
+                    <h2>List</h2>
+                    <br> 
+                    <ul>
+                        <li> - Movies</li>
+                        <li> - Series</li>
+                        <li> - Music</li>
+                    </ul>
+                </br> 
+                </aside>
+                <br>   <br>   <br>   <br>   <br> <br>   <br> 
+        <main>
+          
+            <form name="contact" id="myform" autocomplete="on">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name</label>
+                    <input type="text" required id="name" name="name">
+                    <label for="email">Email</label>
+                    <input type="email" required id="email" name="email">
+                    <label for="phone">Phone</label>
+                    <input type="tel" required id="phone" name="phone" placeholder="555-555-555" maxlength="12" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Use this format: 555-555-555">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Employment Status</legend>
+                    <select id="employment" name="employment" required>
+                        <option value="">Select Option</option>
+                        <option value="student">Student</option>
+                        <option value="full-time">Employed Full-time</option>
+                        <option value="part-time">Employed Part-time</option>
+                        <option value="retired">Retired</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>How did you hear about our site?</legend>
+                    <input type="radio" id="soc" name="hear" value="Social Media" required>
+                    <label for="soc">Social Media</label>
+                    <input type="radio" id="friend" name="hear" value="Friend" required>
+                    <label for="friend">Friend</label>
+                    <input type="radio" id="search" name="hear" value="Search Engine" required>
+                    <label for="search">Search Engine</label>
+                    <input type="radio" id="other" name="hear" value="Other" required>
+                    <label for="other">Other</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tell Us what you think!</legend>
+                    <textarea id="comments" name="comments" placeholder="Type your comments here..." required></textarea>
+                </fieldset>
+
+<fieldset>
+            <legend>Submit</legend>
+            <label for="notRobot">I am not a robot</label>
+            <input type="checkbox" id="notRobot" name="notRobot" required>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2023 Sanders Chacon - Student Number: 8824720</p>
+        </footer>
+    </div>
+</body>
+</html>

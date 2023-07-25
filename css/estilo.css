@@ -1,0 +1,256 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Your other CSS styles above */
+
+.tagline {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color:#FFE177 ; 
+    text-align: center; 
+    font-size: 14px; 
+}
+
+.tagline p {
+    margin: 0; 
+}
+
+
+
+
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(90deg, #FFAF66, #fff);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo-and-text img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+nav {
+    width: 80%;
+    text-align: end;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FF564A;
+    color: #fff;
+}
+
+.banner {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.banner-info h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: darkslategrey;
+
+}
+
+.banner-info, .banner-img {
+    flex-basis: 50%;
+   
+}
+
+.banner {
+    display: flex;
+    align-items: left;
+    text-align: left;
+
+    
+}
+
+.banner-img img {
+    width: 50%;
+    height: auto;
+}
+
+aside {
+    
+    float: right;
+}
+
+aside h2 {
+    font-size: 24px;
+}
+
+aside ul {
+    list-style: none;
+    line-height: 1.5;
+}
+
+
+main {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+main h2 {
+    font-size: 24px;
+}
+
+main p {
+    line-height: 1.5;
+}
+
+figure {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+figure img,
+figure iframe {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+footer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #FFE177; 
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* ::::::::::::::::::::::::::::::::Form Styles :::::::::::::::::::::::::::::::::*/
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+form input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 30px;
+}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: #FF564A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #fff;
+    color: #FF564A;
+}
+
